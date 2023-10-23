@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+    <style>
+      header {
+        position: sticky;
+        top: 0;
+        background-color: white;
+        box-shadow: 0px 2px 7px -1px #d9d9d9;
+      }
+
+      h1 {
+        font-family: Roboto, fallback-font;
+        display: inline-block;
+        margin-left: 90px;
+        margin-top: 60px;
+        color: #111111;
+        cursor: pointer;
+      }
+
+      h2:hover {
+        cursor: pointer;
+      }
+
+      nav {
+        display: inline-block;
+      }
+
+      ul {
+        margin-left: 550px;
+      }
+
+      li {
+        display: inline-block;
+        margin-right: 30px;
+      }
+
+      a {
+        font-family: Roboto, fallback-font;
+        text-decoration: none;
+        color: #333333;
+        font-weight: 600;
+        font-size: 17px;
+      }
+
+      li:hover {
+        text-decoration: underline;
+      }
+
+      input {
+        display: inline-block;
+        height: 25px;
+      }
+
+      div {
+        margin-left: 200px;
+        margin-top: 80px;
+        display: inline-block;
+      }
+
+      span .a2 {
+        text-decoration: none;
+      }
+
+      span .a2 h3 {
+        margin-left: 80px;
+        font-size: 35px;
+        font-family: "Times New Roman", Times, serif;
+        font-weight: 600;
+        margin-bottom: 10px;
+        color: rgb(19, 18, 18);
+        margin-top: 12px;
+        text-decoration: none;
+        letter-spacing: 0.8px;
+      }
+
+      span p {
+        margin-left: 80px;
+        font-size: 19px;
+        margin-top: 0;
+        color: #666666;
+        font-family: Georgia, "Times New Roman", Times, serif;
+        margin-bottom: 10px;
+      }
+
+      span time {
+        margin-left: 80px;
+        color: #666666;
+        font-size: 19px;
+      }
+
+      span span {
+        color: #666666;
+        font-size: 19px;
+      }
+
+      .div2 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        margin-top: 130px;
+      }
+
+      .div2 img {
+        width: 720px;
+        height: 350px;
+        text-align: center;
+        object-fit: cover;
+      }
+
+      .div3 {
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        width: 720px;
+        text-align: center;
+      }
+
+      .div3 p {
+        font-size: 18px;
+        width: 720px;
+        text-align: left;
+        margin: 0px;
+        text-align: justify;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+      }
+
+      .div10 {
+        display: block;
+        background-color: #faf0e6;
+        padding-top: 60px;
+        margin-left: 0px;
+        margin-top: 100px;
+      }
+
+      footer {
+        display: block;
+        background-color: #faf0e6;
+        margin-left: auto;
+        margin-right: auto;
+        width: 30%;
+      }
+
+      footer p {
+        text-align: center;
+        font-size: 20px;
+        font-weight:bold;
+        color: #252525;
+      }
+
+      footer .p1 {
+        text-align: left;
+        font-weight: normal;
+        margin-left: 35px;
+        margin-bottom: 5px;
+      }
+
+      footer input {
+        width: 340px;
+        border-style: solid;
+        border-width: 5px;
+        height: 30px;
+        border-color: white;
+        margin-left: 35px;
+        margin-top: 0px;
+      }
+
+      footer button {
+        text-align: center;
+        margin-left: 150px;
+        margin-top: 18px;
+        width: 115px;
+        height: 50px;
+        border-style: none;
+        background-color: #272727;
+        font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial,
+          sans-serif;
+        color: white;
+        font-size: 17px;
+        font-weight: bold;
+        letter-spacing: 0.5px;
+        transition: opacity 0.15s;
+      }
+
+      footer button:hover {
+        opacity: 0.9;
+      }
+
+      footer button:active {
+        cursor: pointer;
+      }
+
+      .div11 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        text-align: center;
+        margin-top: 25px;
+      }
+
+      .fa {
+        padding: 12px 8px;
+        font-size: 22px;
+        width: 30px;
+        text-align: center;
+        text-decoration: none;
+        margin: 2px 2px;
+        border-radius: 50%;
+      }
+
+      .fa-facebook {
+        background: #272727;
+        color: white;
+      }
+
+      .fa-twitter {
+        background: #55ACEE;
+        color: white;
+      }
+
+      .fa-instagram {
+        background: #125688;
+        color: white;
+      }
+
+      header a h1:hover {
+        color: #FAC213;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <a href="/index.html"><h1>Ashley</h1></a>
+      <nav>
+        <ul>
+          <li><a href="/blog.html">Blog</a></li>
+          <li><a href="/about.html">About</a></li>
+          <li><a href="/contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <input type="search" placeholder="Search" />
+    </header>
+    <div>
+      <span>
+        <a href="#" class="a2"><h3>How I wish to be at MIT</h3></a>
+        <p>It was a lie when they said MIT is not the standard.</p>
+        <time datetime="5/7/2022">5/7/2022</time
+        >&nbsp;<span>&middot;</span>&nbsp;<span>1 min read</span>
+      </span>
+    </div>
+    <div class="div2">
+      <img src="Images/77-mass-ave_0.jpg" alt="Image of MIT" />
+    </div>
+    <div class="div3">
+      <p>
+        Who would not dream to study at the most prestigious and highly
+        in-demand university in the world right now? Massachusetts Institute of
+        Technology is undoubtedly the dream school of every student dreaming to
+        become a web developer someday. Its name, its faculty, its prowess and
+        beauty are all that make it as a dream school for everyone.<br /><br />
+        A lot of successful and well-known web developers, front-end and
+        back-end, came from MIT. This proves that the education and curriculum
+        there is incomparable to other universities. The facilities, technology
+        and the proctors themselves are excellent.<br /><br />
+        Unfortunately, MIT is just a wishful thinking for me. Its great
+        excellence and reputation requires great amount of money. And as a
+        simple Filipino from a family of low-income class, to study at MIT is a
+        fantasy which I wish a reality.
+      </p>
+    </div>
+    <div class="div10">
+      <footer>
+        <p>Subscribe to my Youtube</p>
+        <p class="p1">Email address*</p>
+        <input type="text" placeholder="Your email address" >
+        <button onclick="alert('SUBSCRIBED')">Subscribe</button>
+        <div class="div11">
+          <a href="#" class="fa fa-facebook"></a>
+          <a href="#" class="fa fa-twitter"></a>
+          <a href="#" class="fa fa-instagram"></a>
+        </footer>
+      </div>
+  </body>
+</html>
